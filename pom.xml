@@ -15,6 +15,7 @@
         <module>social_article</module>
         <module>social_gathering</module>
         <module>social_spit</module>
+        <module>social_search</module>
     </modules>
     <packaging>pom</packaging>
     <parent>

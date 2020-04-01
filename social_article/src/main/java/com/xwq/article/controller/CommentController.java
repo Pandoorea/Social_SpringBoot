@@ -20,7 +20,7 @@ public class CommentController {
     @RequestMapping(method= RequestMethod.POST)
     public Result save(@RequestBody Comment comment){
         commentService.add(comment);
-        return new Result(true, StatusCode.OK, "提交成功 ");
+        return new Result(true, StatusCode.OK, "提交成功");
     }
 
     @RequestMapping(value="/article/{articleId}",method= RequestMethod.GET)
