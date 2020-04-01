@@ -1,0 +1,13 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: social-base
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.102.223.91:3306/social_base?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: Iloveyou0.
+  jpa:
+    database: mysql
+    show-sql: true

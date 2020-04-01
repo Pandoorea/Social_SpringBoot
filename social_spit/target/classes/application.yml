@@ -1,0 +1,12 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: social-spit
+  data:
+    mongodb:
+      host: 47.102.223.91
+      port: 27017
+      database: social-dev
+      username: guest
+      password: guest

@@ -1,0 +1,18 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: social-spit
+  data:
+    mongodb:
+      host: 47.102.223.91
+      port: 27017
+      database: social-dev
+      username: guest
+      password: guest
+
+redis:
+  host: 47.102.223.91 # Redis服务器地址
+  database: 0 # Redis数据库索引（默认为0）
+  port: 6300 # Redis服务器连接端口
+  password: Iloveyou0. # Redis服务器连接密码（默认为空）

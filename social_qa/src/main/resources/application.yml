@@ -1,0 +1,13 @@
+server: 
+  port: 9003
+spring: 
+  application:  
+    name: social-qa #指定服务名
+  datasource:  
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.102.223.91:3306/social_qa?useUnicode=true&amp;characterEncoding=UTF8
+    username: root
+    password: Iloveyou0.
+  jpa: 
+    database: MySQL
+    show-sql: true
